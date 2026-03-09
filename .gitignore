@@ -1,0 +1,61 @@
+# =========================
+# Build files
+# =========================
+build/
+bin/
+obj/
+out/
+dist/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Executables
+# =========================
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# =========================
+# Object files
+# =========================
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+
+# =========================
+# Debug / logs
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# VSCode
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Package managers
+# =========================
+node_modules/
