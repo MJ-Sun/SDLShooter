@@ -22,6 +22,8 @@ public:
     void update();
     void render();
 
+    void update(float deltaTime);
+
     SDL_Window* getWindow() { return window; }
     SDL_Renderer* getRenderer() { return renderer; }
     int getWindowWidth() { return windowWidth; }
@@ -38,6 +40,10 @@ private:
     SDL_Renderer* renderer = nullptr;
     int windowWidth = 600;
     int windowHeight = 800;
+
+    int FPS = 60;            
+    Uint32 frameTime;        
+    float deltaTime;
 };
 
 #endif
