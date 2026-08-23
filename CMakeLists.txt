@@ -27,5 +27,4 @@ add_executable(${TARGET} main.cpp)
 
 # 链接库
 target_link_libraries(${TARGET}
-                        SDL2::SDL2
-                        SDL2::SDL2main)
+                        ${SDL2_LIBRARIES})
